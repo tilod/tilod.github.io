@@ -1,0 +1,60 @@
+body {
+    display: flex;
+}
+
+body > div {
+    color: #333;
+    font-family: "Lato", "Helvetica", sans-serif;
+    justify-content: center;
+    padding-top: 10%;
+    width: 50%;
+}
+
+#left {
+    display: flex;
+}
+
+#image {
+    background-image: url('../img/2024_cartoon_600x600.jpg');
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    margin: 10% 20%;
+}
+
+li {
+    font-size: 1.4em;
+    font-weight: bold;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li img {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    body > div {
+        width: 100%;
+    }
+}
