@@ -1,13 +1,9 @@
-body {
-    display: flex;
-}
 
 body > div {
     color: #333;
-    font-family: "Lato", "Helvetica", sans-serif;
+    font-family: "Source Sans Pro", "Helvetica", sans-serif;
     justify-content: center;
     padding-top: 10%;
-    width: 50%;
 }
 
 #left {
@@ -20,7 +16,7 @@ body > div {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 0 0 8px 8px white inset;
+    box-shadow: 0 0 12px 12px white inset;
 }
 
 h1, h2 {
@@ -53,8 +49,12 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 800px) {
+    body {
+        display: flex;
+    }
+
     body > div {
-        width: 100%;
+        width: 50%;
     }
 }
