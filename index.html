@@ -4,31 +4,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/homepage.css">
+  <title>tilod.dev</title>
+  <link rel="stylesheet" href="css/output.css">
 </head>
 
-<body>
-<div id="left">
-  <div id="image"></div>
+<body class="md:grid md:grid-cols-2 justify-center bg-stone-100 text-stone-800">
+<div>
+  <img src="img/2024_avatar_600x600.jpg"
+          alt="tilod"
+          class="rounded-full max-w-64 m-auto mt-10 md:mt-20">
 </div>
-<div id="right">
-  <h1>Hi, I'm Tilo and I'm a web dev</h1>
-  <h2>Nothing much to see here. You can find me at:</h2>
+<div>
+  <h1 class="text-2xl font-bold text-center mt-10 md:mt-20 mx-10">Hi, I'm Tilo and I'm a web developer</h1>
+  <h2 class="text-xl font-bold text-center mt-10 mx-10">Nothing much to see here. You can find me at:</h2>
 
-  <ul>
-    <li>
-      <img src="img/logo_github.svg" alt="GitHub logo">
-      <a href="https://github.com/tilod">GitHub</a>
+  <ul class="max-w-64 mx-auto mt-20 text-xl font-bold text-stone-600">
+    <li class="flex items-center mt-4">
+      <img src="img/logo_github.svg" alt="GitHub logo" class="size-8 mr-4">
+      <a href="https://github.com/tilod"
+              class="hover:text-stone-800">
+        GitHub
+      </a>
     </li>
-    <li>
-      <img src="img/logo_linkedin.svg" alt="LinkedIn logo">
-      <a href="https://www.linkedin.com/in/tilo-dietrich-682125217/">LinkedIn</a>
+    <li class="flex items-center mt-4">
+      <img src="img/logo_linkedin.svg" alt="LinkedIn logo" class="size-8 mr-4">
+      <a href="https://www.linkedin.com/in/tilo-dietrich-682125217/"
+              class="hover:text-stone-800">
+        LinkedIn
+      </a>
     </li>
-    <li>
-      <img src="img/logo_xing.svg" alt="Xing logo">
-      <a href="https://www.xing.com/profile/Tilo_Dietrich">Xing</a>
+    <li class="flex items-center mt-4">
+      <img src="img/logo_xing.svg" alt="Xing logo" class="size-8 mr-4">
+      <a href="https://www.xing.com/profile/Tilo_Dietrich"
+              class="hover:text-stone-800">
+        Xing
+      </a>
     </li>
   </ul>
 </div>
