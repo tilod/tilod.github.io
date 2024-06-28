@@ -8,44 +8,54 @@
   <link rel="stylesheet" href="css/output.css">
 </head>
 
-<body class="md:grid md:grid-cols-2 justify-center bg-stone-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200">
-<div>
-  <img src="img/2024_avatar_600x600.jpg"
-          alt="tilod"
-          class="rounded-full max-w-64 m-auto mt-10 md:mt-20">
-</div>
-<div>
-  <h1 class="text-2xl font-bold text-center mt-10 md:mt-20 mx-10">
-    Hi, I'm Tilo and I'm a web developer
-  </h1>
-  <h2 class="text-xl font-bold text-center mt-10 mx-10">
-    Nothing more to see here. You can find me at:
-  </h2>
+<body class="bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-300">
+  <div class="text-right">
+    <label class="inline-flex items-center cursor-pointer mx-5 my-5" for="theme-toggle">
+      <input type="checkbox" id="theme-toggle" class="sr-only peer">
+      <div class="relative w-11 h-6 bg-zinc-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-zinc-300 dark:peer-focus:ring-zinc-800 rounded-full peer dark:bg-zinc-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-zinc-100 after:border-zinc-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-zinc-800 peer-checked:bg-zinc-600"></div>
+      <span class="ms-3 text-sm font-medium text-zinc-800 dark:text-zinc-300">Dark mode</span>
+    </label>
+  </div>
+  <main class="md:grid md:grid-cols-2 justify-center">
+    <div>
+      <img src="img/2024_avatar_600x600.jpg"
+              alt="tilod"
+              class="rounded-full max-w-64 m-auto mt-5 md:mt-10">
+    </div>
+    <div>
+      <h1 class="text-2xl font-bold text-center mt-10 md:mt- mx-10">
+        Hi, I'm Tilo and I'm a web developer
+      </h1>
+      <h2 class="text-xl font-bold text-center mt-10 mx-10">
+        Nothing more to see here. You can find me at:
+      </h2>
 
-  <ul class="max-w-80 mx-auto mt-20 text-xl font-bold text-zinc-600 dark:text-zinc-400">
-    <li class="flex items-center mt-5">
-      <img src="img/logo_github.svg" alt="GitHub logo" class="size-8 mr-4 dark:invert">
-      <a href="https://github.com/tilod"
-              class="hover:text-zinc-800 dark:hover:text-zinc-200">
-        GitHub
-      </a>
-    </li>
-    <li class="flex items-center mt-5">
-      <img src="img/logo_linkedin.svg" alt="LinkedIn logo" class="size-8 mr-4">
-      <a href="https://www.linkedin.com/in/tilo-dietrich-682125217/"
-              class="hover:text-zinc-800 dark:hover:text-zinc-200">
-        LinkedIn
-      </a>
-    </li>
-    <li class="flex items-center mt-5">
-      <img src="img/logo_xing.svg" alt="Xing logo" class="size-8 mr-4">
-      <a href="https://www.xing.com/profile/Tilo_Dietrich"
-              class="hover:text-zinc-800 dark:hover:text-zinc-200">
-        Xing
-      </a>
-    </li>
-  </ul>
-</div>
+      <ul class="max-w-80 mx-auto mt-20 text-xl font-bold text-zinc-600 dark:text-zinc-400">
+        <li class="flex items-center mt-5">
+          <img src="img/logo_github.svg" alt="GitHub logo" class="size-8 mr-4 dark:invert">
+          <a href="https://github.com/tilod"
+                  class="hover:text-zinc-800 dark:hover:text-zinc-300">
+            GitHub
+          </a>
+        </li>
+        <li class="flex items-center mt-5">
+          <img src="img/logo_linkedin.svg" alt="LinkedIn logo" class="size-8 mr-4">
+          <a href="https://www.linkedin.com/in/tilo-dietrich-682125217/"
+                  class="hover:text-zinc-800 dark:hover:text-zinc-300">
+            LinkedIn
+          </a>
+        </li>
+        <li class="flex items-center mt-5">
+          <img src="img/logo_xing.svg" alt="Xing logo" class="size-8 mr-4">
+          <a href="https://www.xing.com/profile/Tilo_Dietrich"
+                  class="hover:text-zinc-800 dark:hover:text-zinc-300">
+            Xing
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <script src="js/dark_mode.js"></script>
 </body>
-
 </html>
